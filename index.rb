@@ -25,4 +25,22 @@ puts gree
 point = 7
 day = 1
 point *= 5 if day == 1
-puts point 
+puts point
+
+puts %q!こんにちわ!
+
+v = <<TEXT
+これは
+ヒアドキュメントです。
+嗚呼嗚呼
+TEXT
+
+puts v
+
+j = 'Ruby'
+j.prepend(<<TEXT)
+javascripts
+PHP
+TEXT
+
+puts j
